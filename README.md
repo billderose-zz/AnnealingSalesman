@@ -2,8 +2,8 @@ AnnealingSalesman
 =================
 
 We use a naive simulated annealing algorithm to solve the traveling salesman problem.
-
 We randomly generate *n* cities in the unit square. When *n* = 10, we have an image like this:
+
 ![ten cities bad](/solutions/ten_bad.jpeg)
 
 We then run the simulated annealing, and observe the optimization of the path length:
